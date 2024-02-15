@@ -1,0 +1,319 @@
+h2{
+    color:#fff;
+    font-size: 40px !important;
+    font-weight: bold !important;
+    
+}
+
+
+
+.visual img {
+    height: 400px;
+    width: 400px;
+    border-radius: 15px !important; /* Borde redondeado */
+
+    
+}
+
+.visual {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.informacion{
+    margin-bottom: 20px;
+    
+}
+
+.info1 {
+    text-align: center; /* Centra horizontalmente */
+    height: 266.66px;
+    
+    
+}
+
+.cita img {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px !important; /* Borde redondeado */
+}
+
+.cita{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top:20px;
+    margin-right: 20px;
+    height: 133.33px;
+    width: 300;
+    
+}
+
+.tituloinformacion{
+    height: 133.33px;
+    width: 300px;
+
+}
+
+.botoninformacion{
+    height: 133.33px;
+    width: 300px;
+    
+
+}
+
+
+blockquote{
+    margin-left: 10px;
+}
+button{
+    background-color: transparent; /* Fondo transparente para el botón */
+    color: white; /* Color del texto blanco */
+    border: 2px solid white; /* Borde blanco de 2px */
+    padding: 10px 20px; /* Relleno del botón */
+    border-radius: 15px !important; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    height:100px ;
+    width:200px ;
+    font-size: 25px !important;
+    font-weight: bold;
+
+}
+
+#Instituciones {
+    display: flex; /* Convierte al contenedor en un contenedor flexible */
+    flex-direction: row; /* Establece la dirección de los elementos secundarios en fila */
+    justify-content: space-around; /* Justifica el contenido a ambos lados del contenedor */
+    gap:20px;
+    background-color:#fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    height: 120px;
+    width: 1000px;
+}
+
+#titulobanner h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+#Instituciones #imagenSRI img{
+    height:80px ;
+    width:80px ;  
+    margin-top:20px ;
+}
+
+#Instituciones #imageniees img{
+    height:80px ;
+    width:80px ;  
+    margin-top:20px ;
+}
+
+
+#Instituciones #imagenmt img{
+    height:80px ;
+    width:120px ; 
+    margin-top:20px ;
+} 
+
+
+#Instituciones #imagensupercias img{
+    height:80px ;
+    width:200px ;  
+    margin-top:20px ;
+
+}
+
+#Instituciones #imagensenae img{
+    height:80px ;
+    width:80px ;  
+    margin-top:20px ;
+
+}
+
+
+
+
+
+#Portada{
+    height: 731px;
+    width: 100% ; 
+    padding: 0; /* Elimina el relleno */
+    margin: 0;
+    background-image: url(./images/whale.jpg);
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+.Portadatexto{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+    
+    
+}
+
+.Portadatexto h2{
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+
+.Portadaboton{
+    height: 300px;
+    width: 800px;
+    margin-left: 20px;
+    
+    
+}
+
+.Portadaboton button{
+    margin-bottom: 50px;
+    
+}
+
+#Servicios{
+    background-color:#0074b9 ;
+    height: 731px;
+    width: 1000px;
+    margin-bottom: 82px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+
+}
+
+#Eventos{
+
+    background-color: #0074b9;
+    height: 731px;
+    width: 1000px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 82px;
+    align-items: center;
+    
+}
+
+#Eventos #titulo{
+
+    background-color: #0074b9;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+    
+}
+
+
+
+#footer{
+    background-color:#024272;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    height: 20px;
+    width: 800px;
+    display: flex;
+    justify-content: center; /* Alinea la fila horizontalmente al centro */
+    align-items: center;
+
+}
+
+
+#footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+p{
+    color:#fff;
+    font-size:15px;
+    line-height: 15px;
+    width: 200px;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.author{
+    color:#fff;
+    font-size:15px;
+    line-height: 15px;
+    width: 200px;
+    margin-left: 10px;
+    text-align: right;
+    font-style: italic;
+}
+
+
+
+
+.container-fluid {
+    display: flex;
+    flex-direction: column; /* O column */
+    justify-content: space-between; /* O space-around, space-evenly */
+    align-items: center; /* O flex-start, flex-end, center */
+    background-color:#024272;
+    padding: 0 !important;
+    
+}
+
+/* Otros estilos adicionales aquí */
+
+
+
+#videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las celdas */
+    margin-bottom: 50px; /* Espacio entre cada fila de videos */
+    padding: 10px; /* Añadir relleno para igualar las distancias */
+    justify-items: center;
+    
+    
+}
+
+
+
+#videos > div {
+    margin: 10px; /* Añade un pequeño espacio entre los elementos */
+    width: 327px; /* Establece un ancho fijo para los elementos */
+    text-align: center; /* Centra el contenido dentro de cada elemento */
+    
+    
+}
+
+#videos iframe {
+    width: 100%; /* Hace que los iframes ocupen todo el ancho disponible dentro de sus contenedores */
+    height: 184px; /* Establece una altura fija para los iframes */
+    border-radius: 15px;
+}
+
+#videos p {
+    margin-bottom: 10px; /* Establece un margen inferior para los párrafos */
+   
+}
+
+#videos date {
+    margin-top: 10px; /* Elimina el margen superior de las fechas */
+
+}
+
