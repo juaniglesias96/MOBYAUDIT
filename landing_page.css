@@ -67,6 +67,7 @@ h2{
 blockquote{
     margin-left: 10px;
 }
+
 button{
     background-color: transparent; /* Fondo transparente para el botón */
     color: white; /* Color del texto blanco */
@@ -81,6 +82,13 @@ button{
 
 }
 
+#Servicios:hover button:hover{
+    font-size: 28px !important; /* Cambia el tamaño del texto al pasar el cursor */
+    font-weight: 800; /* Cambia el peso del texto al pasar el cursor */
+    border: 5px solid #024272; /* Borde blanco de 2px */
+    color: #024272;
+}
+
 #Instituciones {
     display: flex; /* Convierte al contenedor en un contenedor flexible */
     flex-direction: row; /* Establece la dirección de los elementos secundarios en fila */
@@ -93,8 +101,46 @@ button{
     border-radius: 15px;
     height: 120px;
     width: 1000px;
+    overflow: hidden;
+    position: relative;
+    
+   
+    
 }
 
+#Instituciones img {
+    height: 100px;
+    width: 150px; /* Para mantener la proporción original de las imágenes */
+    margin-right: 20px;
+    animation: moveRightToLeft 5s linear infinite; /* Animación para mover las imágenes */
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    filter: grayscale(100%); /* Convierte la imagen a escala de grises */
+    transition: filter 0.3s; /* Agrega una transición suave */
+}
+
+#Instituciones:hover img {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+
+
+
+  
+@keyframes moveRightToLeft {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+  
 #titulobanner h2{
     margin-left: 20px;
     margin-right: 20px;
@@ -102,39 +148,6 @@ button{
 
 }
 
-#Instituciones #imagenSRI img{
-    height:80px ;
-    width:80px ;  
-    margin-top:20px ;
-}
-
-#Instituciones #imageniees img{
-    height:80px ;
-    width:80px ;  
-    margin-top:20px ;
-}
-
-
-#Instituciones #imagenmt img{
-    height:80px ;
-    width:120px ; 
-    margin-top:20px ;
-} 
-
-
-#Instituciones #imagensupercias img{
-    height:80px ;
-    width:200px ;  
-    margin-top:20px ;
-
-}
-
-#Instituciones #imagensenae img{
-    height:80px ;
-    width:80px ;  
-    margin-top:20px ;
-
-}
 
 
 
@@ -149,6 +162,14 @@ button{
     background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
     background-position: center; /* Centra la imagen */
 }
+
+#Portada:hover button:hover{
+    font-size: 35px !important; /* Cambia el tamaño del texto al pasar el cursor */
+    font-weight: 800; /* Cambia el peso del texto al pasar el cursor */
+    border: 5px solid #0074b9; /* Borde blanco de 2px */
+    color: #0074b9;
+}
+
 
 .Portadatexto{
     height: 500px;
@@ -186,31 +207,34 @@ button{
     background-color:#0074b9 ;
     height: 731px;
     width: 1000px;
-    margin-bottom: 82px;
+    margin-top:80px ;
+    margin-bottom: 80px;
     margin-left: 20px;
     margin-right: 20px;
     justify-content: space-around;
     align-items: center;
     display: flex;
+    border-radius:10px;
 
 
 }
 
 #Eventos{
 
-    background-color: #0074b9;
-    height: 731px;
+    background-color: #024272;
+    height: 500px;
     width: 1000px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 82px;
     align-items: center;
+    border-radius: 10px;
     
 }
 
 #Eventos #titulo{
 
-    background-color: #0074b9;
+    background-color: #024272;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 20px ;
