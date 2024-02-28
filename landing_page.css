@@ -71,22 +71,22 @@ blockquote{
 button{
     background-color: transparent; /* Fondo transparente para el botón */
     color: white; /* Color del texto blanco */
-    border: 2px solid white; /* Borde blanco de 2px */
     padding: 10px 20px; /* Relleno del botón */
     border-radius: 15px !important; /* Borde redondeado */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
     height:100px ;
     width:200px ;
-    font-size: 25px !important;
-    font-weight: bold;
+    border: 3px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    font-size: 30px !important;
+    
 
 }
 
 #Servicios:hover button:hover{
-    font-size: 28px !important; /* Cambia el tamaño del texto al pasar el cursor */
-    font-weight: 800; /* Cambia el peso del texto al pasar el cursor */
-    border: 5px solid #024272; /* Borde blanco de 2px */
-    color: #024272;
+    transition: 1s ease-in-out;
+    background: #4F95DA;
 }
 
 #Instituciones {
@@ -164,10 +164,8 @@ button{
 }
 
 #Portada:hover button:hover{
-    font-size: 35px !important; /* Cambia el tamaño del texto al pasar el cursor */
-    font-weight: 800; /* Cambia el peso del texto al pasar el cursor */
-    border: 5px solid #0074b9; /* Borde blanco de 2px */
-    color: #0074b9;
+    transition: 1s ease-in-out;
+    background: #4F95DA;
 }
 
 
@@ -331,13 +329,6 @@ p{
     border-radius: 15px;
 }
 
-#videos p {
-    margin-bottom: 10px; /* Establece un margen inferior para los párrafos */
-   
-}
 
-#videos date {
-    margin-top: 10px; /* Elimina el margen superior de las fechas */
 
-}
 
