@@ -330,5 +330,83 @@ p{
 }
 
 
+/* Media query para dispositivos con un ancho máximo de 767px, como teléfonos móviles */
+@media screen and (max-width: 767px) {
+    /* Modifica los estilos aquí para pantallas de dispositivos móviles */
+    body{
+        width: auto;
+    }
+    .container-fluid{
+        max-width:  auto;
+    }
+    .Portadatexto {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Portadatexto h2 {
+        font-size: 30px;
+    }
+    
+    .Portadaboton {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Portadaboton button {
+        font-size: 20px;
+    }
+
+    #Servicios, #Eventos {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #videos {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    #Banner{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+
+    }    
+
+    #titulobanner{
+        width: 24%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #Instituciones{
+        width: 24%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footer  {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
 
 
